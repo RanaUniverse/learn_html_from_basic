@@ -5,6 +5,10 @@ I can open in terminal,
 ```
 google-chrome . & exit
 ```
+&&& 
+```
+google-chrome ./index.html & exit
+```
 This will Help to open the current setup (html files and so on in chrome).
 
 ```
