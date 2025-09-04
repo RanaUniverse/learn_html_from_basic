@@ -63,3 +63,28 @@
      /* hyphens: auto; */
      font-size: 20px;
  }
+
+
+ /* Default (for big screens) */
+ .box {
+     width: 75%;
+     font-size: 20px;
+     background-color: green;
+ }
+ 
+ /* For tablets (screen width <= 768px) */
+ @media (max-width: 768px) {
+     .box {
+         width: 90%;
+         font-size: 18px;
+         background-color: red;
+        }
+    }
+    /* For mobiles (screen width <=480px)  */
+    @media (max-width: 480px) {
+        .box {
+            width: 100%;
+            font-size: 16px;
+            background-color: blue;
+        }
+    }
