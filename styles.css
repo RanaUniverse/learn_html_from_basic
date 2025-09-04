@@ -9,7 +9,7 @@
      color: darkblue;
      padding: 8px 16px;
      margin: 20px auto;
-     border: thick double blue;
+     border: thick double rgb(57, 9, 231);
  }
 
 
@@ -41,4 +41,8 @@
 
  .important p {
      color: green;
+ }
+
+ .arrow-break {
+     color: red;
  }
