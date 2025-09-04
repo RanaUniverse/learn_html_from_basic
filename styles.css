@@ -50,7 +50,16 @@
  .box-paragraph {
      width: 75%;
      background-color: rgb(238, 241, 16);
-     border: thick double #32a1ce;
-     border-radius: 15px;
+     border: 4mm ridge rgba(100, 230, 197, 0.6);
+     /* border-radius: 15px; */
      color: red;
+     margin: auto;
+
+ }
+
+ .box-paragraph p {
+     word-wrap: break-word;
+     color: red;
+     /* hyphens: auto; */
+     font-size: 20px;
  }
