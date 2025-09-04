@@ -46,3 +46,11 @@
  .arrow-break {
      color: red;
  }
+
+ .box-paragraph {
+     width: 75%;
+     background-color: rgb(238, 241, 16);
+     border: thick double #32a1ce;
+     border-radius: 15px;
+     color: red;
+ }
