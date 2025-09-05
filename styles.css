@@ -71,20 +71,51 @@
      font-size: 20px;
      background-color: green;
  }
- 
+
  /* For tablets (screen width <= 768px) */
  @media (max-width: 768px) {
      .box {
          width: 90%;
          font-size: 18px;
          background-color: red;
-        }
-    }
-    /* For mobiles (screen width <=480px)  */
-    @media (max-width: 480px) {
-        .box {
-            width: 100%;
-            font-size: 16px;
-            background-color: blue;
-        }
-    }
+     }
+ }
+
+ /* For mobiles (screen width <=480px)  */
+ @media (max-width: 480px) {
+     .box {
+         width: 100%;
+         font-size: 16px;
+         background-color: blue;
+     }
+ }
+
+ table {
+     width: 80%;
+     font-family: sans-serif;
+     border: 2px solid red;
+     margin: auto;
+     table-layout: fixed;
+     border-collapse: collapse;
+     word-wrap: break-word;
+ }
+
+ th,
+ td {
+     border: 1px solid;
+ }
+
+
+ caption {
+     caption-side: bottom;
+     padding: 10px;
+     font-weight: bold;
+ }
+
+ .scrollable-cell {
+     max-height: 100px;
+     overflow-y: auto;
+     display: block;
+     color: green;
+     background-color: aqua;
+ }
